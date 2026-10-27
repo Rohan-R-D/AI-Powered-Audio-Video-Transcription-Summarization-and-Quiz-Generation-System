@@ -1,0 +1,16 @@
+# Streamlit application
+streamlit==1.37.1
+
+# Transcription and media handling
+faster-whisper==1.0.3
+moviepy==1.0.3
+numpy==1.26.4
+yt-dlp[default]==2026.10.26
+
+# Summarization and quiz generation
+sumy==0.11.0
+rake-nltk==1.0.6
+nltk==3.9.1
+
+# Speech generation
+edge-tts==7.3.1

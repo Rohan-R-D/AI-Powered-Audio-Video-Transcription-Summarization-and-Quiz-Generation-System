@@ -1,0 +1,1 @@
+from modules.quiz import generate_quiz

@@ -1,0 +1,51 @@
+# Python virtual environments (including the copied environment in this folder)
+.venv/
+venv/
+env/
+/Lib/
+/Scripts/
+/Include/
+/share/
+/etc/
+/bin/
+/pyvenv.cfg
+
+# Python caches and test/tool output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded models, media, and temporary processing output
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.webm
+*.mov
+*.mkv
+*.part
+downloads/
+models/
+nltk_data/
+temp/
+tmp/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Superseded/unused prototype files; the active app is app.py + modules/
+/static/
+/templates/
+/utils/
